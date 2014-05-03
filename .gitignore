@@ -1,3 +1,4 @@
+# Rails via Github
 *.rbc
 capybara-*.html
 .rspec
@@ -12,13 +13,13 @@ rerun.txt
 pickle-email-*.html
 config/initializers/secret_token.rb
 config/secrets.yml
-
-## Environment normalisation:
+.rvmrc
 /.bundle
 /vendor/bundle
 
-# these should all be checked in to normalise the environment:
-# Gemfile.lock, .ruby-version, .ruby-gemset
-
-# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
-.rvmrc
+# IntelliJ
+.idea/
+*.ipr
+*.iws
+*.iml
+out/
