@@ -1,3 +1,11 @@
 language: ruby
 rvm:
-  - 2.1.0
+- 2.1.0
+deploy:
+  provider: heroku
+  api_key:
+    secure: Zk92rTLlFQnv73+3HbFIfCUxFdxX4wExYZPj7tFcVKIs8QSi2h7bHf9yP+cuJAlPM3SM7kGOF+2qZ4UM0azx+Gx8cHeBAJpl6I8bHnQRZKX8Gg0J4OdALhJSNEIzJua14GqvtmgfuhR+lhEvMdgRbbzAdvm88BzdDD05NwXJ5Ms=
+  app: unrealities
+  on:
+    branch: master
+    rvm: 2.1.1
