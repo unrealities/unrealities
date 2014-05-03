@@ -6,6 +6,8 @@ gem 'turbolinks'
 gem 'sprockets-rails'
 gem 'bootstrap-sass'
 gem 'haml'
+gem 'pg'
 
-gem 'sqlite3'
-
+group :production do
+  gem 'rails_12factor'
+end
